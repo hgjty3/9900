@@ -38,13 +38,13 @@ inbounds:
   settings:
     password: UUID
     method: SSencryption
-    ivcheck: false
+    ivcheck: true
   streamSettings:
     network: ws
     wsSettings:
       path: /UUID-sh
   sniffing:
-    enabled: false
+    enabled: true
     destOverride:
     - http
     - tls
@@ -58,7 +58,7 @@ inbounds:
     wsSettings:
       path: /UUID-tr
   sniffing:
-    enabled: false
+    enabled: true
     destOverride:
     - http
     - tls
@@ -74,7 +74,7 @@ inbounds:
     wsSettings:
       path: /UUID-so
   sniffing:
-    enabled: false
+    enabled: true
     destOverride:
     - http
     - tls
